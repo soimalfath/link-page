@@ -5,6 +5,7 @@ import {
   IconBrandLinkedin,
   IconBrandInstagram,
   IconBrandFacebook,
+  IconMail,
 } from '@tabler/icons-react';
 
 export function ButtonSocmed() {
@@ -39,13 +40,13 @@ export function ButtonSocmed() {
       ),
       href: 'https://x.com/mbuhsapaaaaa',
     },
-    // {
-    //   title: 'GitHub',
-    //   icon: (
-    //     <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    //   ),
-    //   href: 'https://github.com/soimalfath',
-    // },
+    {
+      title: 'Email',
+      icon: (
+        <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: 'mailto:soimkmpbg@gmail.com',
+    },
   ];
   return (
     <div className="flex items-center justify-center w-full">
