@@ -26,7 +26,7 @@ export function CardSpotlightDemo() {
     },
   ];
   return (
-    <CardSpotlight className=" gridjustify-center rounded-lg w-96">
+    <CardSpotlight className="grid justify-center rounded-lg w-96">
       {Link.map((item) => (
         <div key={item.tittle} className="mb-2">
           <ButtonLink title={item.tittle} href={item.href} />
