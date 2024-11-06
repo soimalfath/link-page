@@ -4,7 +4,7 @@ import { BackgroundLines } from '@/components/ui/background-lines';
 import { Tittle } from "@/components/text/tittle";
 import { CardSpotlightDemo } from "@/components/card/cards";
 import Head from "next/head";
-import { ButtonSocmed } from '@/components/button/button-socmed';
+// import { ButtonSocmed } from '@/components/button/button-socmed';
 
 // const geistSans = localFont({
 //   src: './fonts/GeistVF.woff',
@@ -41,10 +41,10 @@ export default function Home() {
           </div>
           <Tittle />
           <div className="flex items-center flex-col justify-center">
-            <div className="mb-5 w-full">
-              <ButtonSocmed />
-            </div>
             <CardSpotlightDemo />
+            {/* <div className="mt-8 w-full">
+              <ButtonSocmed />
+            </div> */}
           </div>
           <div className="flex justify-center mt-10">Made with ❤️ by Soim</div>
         </div>

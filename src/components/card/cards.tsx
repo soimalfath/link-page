@@ -1,5 +1,6 @@
 import { CardSpotlight } from '@/components/ui/card-spotlight';
 import { ButtonLink } from '../button/button';
+import { ButtonSocmed } from '../button/button-socmed';
 
 export function CardSpotlightDemo() {
   const Link = [
@@ -27,10 +28,13 @@ export function CardSpotlightDemo() {
   return (
     <CardSpotlight className=" gridjustify-center rounded-lg w-96">
       {Link.map((item) => (
-        <div key={item.tittle} className="mb-4">
+        <div key={item.tittle} className="mb-2">
           <ButtonLink title={item.tittle} href={item.href} />
         </div>
       ))}
+      <div className="mt-10 w-full">
+        <ButtonSocmed />
+      </div>
     </CardSpotlight>
   );
 }
