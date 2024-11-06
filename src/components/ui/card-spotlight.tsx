@@ -2,7 +2,7 @@
 
 import { useMotionValue, motion, useMotionTemplate } from 'framer-motion';
 import React, { MouseEvent as ReactMouseEvent, useState } from 'react';
-import { CanvasRevealEffect } from '@/components/ui/canvas-reveal-effect';
+import CanvasRevealEffec from '@/components/ui/canvas-reveal-effect';
 import { cn } from '@/lib/utils';
 
 export const CardSpotlight = ({
@@ -57,7 +57,7 @@ export const CardSpotlight = ({
         }}
       >
         {isHovering && (
-          <CanvasRevealEffect
+          <CanvasRevealEffec
             animationSpeed={5}
             containerClassName="bg-transparent absolute inset-0 pointer-events-none"
             colors={[
