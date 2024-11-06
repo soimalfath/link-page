@@ -9,7 +9,7 @@ export function ButtonLink({ title, href }: ButtonLinkProps) {
     window.open(href, '_blank');
   };
   return (
-    <div className="w-max-full w-full flex justify-center text-center">
+    <div className="w-max-full w-[296px] flex justify-center text-center">
       <HoverBorderGradient
         containerClassName="rounded-full w-full"
         as="button"
