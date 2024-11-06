@@ -13,7 +13,7 @@ export function ButtonLink({ title, href }: ButtonLinkProps) {
       <HoverBorderGradient
         containerClassName="rounded-full w-full"
         as="button"
-        onClick={() => openLink}
+        onClick={() => openLink()}
         className="dark:bg-black  bg-white text-black dark:text-white flex items-center space-x-2"
       >
         <span>{title}</span>
