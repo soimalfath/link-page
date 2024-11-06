@@ -41,10 +41,10 @@ export default function Home() {
           </div>
           <Tittle />
           <div className="flex items-center flex-col justify-center">
-            <CardSpotlightDemo />
-            <div className="mt-8 w-full">
+            <div className="mb-5 w-full">
               <ButtonSocmed />
             </div>
+            <CardSpotlightDemo />
           </div>
           <div className="flex justify-center mt-10">Made with ❤️ by Soim</div>
         </div>
