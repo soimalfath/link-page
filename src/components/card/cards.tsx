@@ -26,12 +26,14 @@ export function CardSpotlightDemo() {
     },
   ];
   return (
-    <CardSpotlight className="grid justify-center rounded-lg w-80">
-      {Link.map((item) => (
-        <div key={item.tittle} className="mb-2">
-          <ButtonLink title={item.tittle} href={item.href} />
-        </div>
-      ))}
+    <CardSpotlight className="flex flex-col justify-center rounded-lg w-[22rem]">
+      <div>
+        {Link.map((item) => (
+          <div key={item.tittle} className="mb-2 w-[296px] ">
+            <ButtonLink title={item.tittle} href={item.href} />
+          </div>
+        ))}
+      </div>
       <div className="mt-10 w-full">
         <ButtonSocmed />
       </div>
