@@ -16,13 +16,13 @@ export function CardSpotlightDemo() {
       tittle: 'Medium',
       href: 'https://medium.com/@soimverse',
     },
-    // {
-    //   tittle: 'Blog',
-    //   href: 'https://blog.qiblat.my.id',
-    // },
     {
       tittle: 'GitHub',
       href: 'https://github.com/soimalfath',
+    },
+    {
+      tittle: 'Email',
+      href: 'mailto:soimkmpbg@gmail.com',
     },
   ];
   return (
