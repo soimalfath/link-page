@@ -32,7 +32,7 @@ export function CardSpotlightDemo() {
           <ButtonLink title={item.tittle} href={item.href} />
         </div>
       ))}
-      <div className="mt-14 w-full">
+      <div className="mt-10 w-full">
         <ButtonSocmed />
       </div>
     </CardSpotlight>
